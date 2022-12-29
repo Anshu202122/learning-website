@@ -1,0 +1,125 @@
+
+.logo1{
+    height: 15%;
+    display: flex;
+    align-items: center;
+  }
+  .logo1 img{
+      width: 10%;
+  }
+  .logo1 p{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+  }
+  .logo{
+      width: 90px;
+      cursor: pointer;
+      margin-left: 40px;
+  }
+  nav{
+      flex: 1;
+      text-align: right;
+  }
+  .implinks a{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+      list-style: none;
+      display: inline;
+      margin-left: 60px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 23px;
+      transform-origin: center;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: hsl(206, 92%, 94%);
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-box{
+    background-color: wheat;
+    /* height: 60vh; */
+    width: 45vw;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem -0.3rem rgba(0, 0, 0, 0.4);
+}
+
+.main-box h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    /* margin: 0 0 4rem 0; */
+}
+
+.main-box li{
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+input{
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+    color: darkslategrey;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #5aa8f7;
+    margin-top: 1rem;
+}
+
+.btn1{
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-size: 0.7rem;
+    border-radius: 6px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: green;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(3, 98, 3);
+}
+
+.btn:hover{
+    background-color: #0984e3;
+    cursor: pointer;
+}
+
+.scoreArea{
+    background-color: #dfe;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 1rem 1rem 1rem -0.3rem rgba(0, 0, 0, 0.4);
+    display: none;
+}

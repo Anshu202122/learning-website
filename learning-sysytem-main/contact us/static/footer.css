@@ -1,0 +1,22 @@
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 75%;
+    margin: auto;
+    opacity: 0.2;
+    border-top: 1px solid #070303;
+}
+
+
+
+.social-media-img
+{
+    height: 5vh;
+}
+
+
+
+
